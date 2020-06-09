@@ -34,6 +34,24 @@ background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, F
   border:none;
 }
 
+.navbar-default .navbar-brand{
+  color:white;
+}
+
+ .navbar-default .navbar-nav > li > a {
+  color:white;
+}
+
+.navbar-default .navbar-brand:hover{
+  color:white;
+  opacity: 0.75;
+}
+ .navbar-default .navbar-nav > li > a:hover {
+  color:white;
+  opacity: 0.75;
+}
+  
+
 .home-callout{
   color:white;
     margin-top: -20px;
