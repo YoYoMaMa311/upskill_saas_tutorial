@@ -31,6 +31,7 @@ gem 'bootstrap-sass', '3.3.7'
 gem 'font-awesome-sass',  '4.6.2'
 # Use Hirb for better database table dsiplay in console
 gem 'hirb', '0.7.3' 
+
 group :development, :test do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3', '1.3.13'
