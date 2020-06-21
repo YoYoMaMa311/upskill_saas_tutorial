@@ -1,0 +1,25 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "[Upskill](http://upskillcourses.com) Software-as-a-Service Ruby on Rails App",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+     "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoYoMaMa311/upskill_saas_tutorial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoYoMaMa311/upskill_saas_tutorial/issues"
+  },
+  "homepage": "https://github.com/YoYoMaMa311/upskill_saas_tutorial#readme"
+}
+{
