@@ -66,16 +66,14 @@ background: linear-gradient(to right, #283E51, #4B79A1); /* W3C, IE 10+/ Edge, F
   
 }
 
-
-
-
-
-
-
 // Home Page Styles
 .home-callout{
   color:white;
     margin-top: -20px;
     padding-top: 50px;
     padding-bottom: 100px;
+}
+
+.alert-notice{
+  display: none;
 }
