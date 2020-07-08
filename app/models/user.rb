@@ -3,5 +3,20 @@ class User < ApplicationRecord
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
   belongs_to :plan
+  has_one :profile
+
+  attr_accessor :stripe_card_token
+
+  # save the user with a stripe customer token
+  def save_with_subscription
+    if valid?
+      customer = Stripe::Customer.create(description: email,
+                                         plan: plan_id,
+                                         card: stripe_card_token)
+      self.stripe_customer_token = customer.id
+      save!
+    end
+  end
 end

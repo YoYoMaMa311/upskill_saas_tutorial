@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20200701180419) do
     t.integer  "plan_id"
     t.string   "stripe_customer_token"
     t.index ["email"], name: "index_users_on_email", unique: true
+     t.index ["plan_id"], name: "index_users_on_plan_id"
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
