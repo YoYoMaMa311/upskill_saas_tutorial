@@ -32,7 +32,7 @@ gem 'font-awesome-sass',  '4.6.2'
 # Use Hirb for better database table dsiplay in console
 gem 'hirb', '0.7.3' 
 # Use Device for user authentication
-gem 'devise', '4.2.0'
+gem 'devise', '4.7.1'
 
 # Use Stripe for payment processing 
 gem 'stripe', '1.48.0'
